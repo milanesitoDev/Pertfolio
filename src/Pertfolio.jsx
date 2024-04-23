@@ -1,6 +1,7 @@
 import { Licenses } from './Licenses';
 import { Projects } from './Projects';
 import { SkillsSeccion } from './Skills';
+import './assets/cv.pdf'
 import './style.css';
 
 const Pertfolio = () =>{
@@ -23,7 +24,7 @@ const Pertfolio = () =>{
                 <img src="" alt=""/>
             </div>
             <h1>Lucia Cristaldo</h1>
-            <h2>Desarrolladora full-stack Trainee - JR</h2>
+            <h2>Desarrolladora FrontEnd - JR</h2>
         </div>
     </section>
 
@@ -34,7 +35,7 @@ const Pertfolio = () =>{
             <p><span>Soy Lucia Cristaldo </span>Estudiante en el area del Desarrollo web. 
                 utilizando tecnologías como React, Next.js, JavaScript, TypeScript, Tailwind CSS, HTML y CSS y adentrandome en el backend.
                 Me considero una persona responsable y ordenada.
-                Buscando mi primera experiencia laboral como full-stack Trainee - JR</p>
+                Buscando mi primera experiencia laboral como FrontEnd Trainee - JR</p>
 
             <div className="fila">
 
@@ -85,8 +86,8 @@ const Pertfolio = () =>{
                 </div>
             </div>
             <button>
-                Descargar CV <i className="fa-solid fa-download"></i>
-                <span className="overlay"></span>
+                Descargar CV <i  download="nombre-de-tu-cv.pdf"></i>
+                <a href="/ruta/a/tu/cv.pdf" className="overlay"></a>
             </button>
         </div>
     </section>

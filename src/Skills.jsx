@@ -56,7 +56,7 @@ export function SkillsSeccion() {
               </div>
             </div>
             <div className="skill">
-              <span>Python, SQL, Base d datos</span>
+              <span>Git , Node.js </span>
               <div className="barra-skill">
                 <div className="progreso"></div>
               </div>
